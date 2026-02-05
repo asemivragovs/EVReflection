@@ -20,7 +20,7 @@ EOS
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
   s.swift_versions = ['4.0', '4.2', '5.0']
 
-  s.source       = { :git => "https://github.com/evermeer/EVReflection.git", :tag => s.version }
+  s.source       = { :git => ".", :tag => s.version }
   s.default_subspec = "Core"
 
 # This is the core EVReflection library
